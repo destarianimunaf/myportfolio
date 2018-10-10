@@ -1,0 +1,16 @@
+{
+  "name": "myportofolio",
+  "version": "1.0.0",
+  "description": "Responsive Desta porotfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Desta Riani",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-sass": "^4.9.3",
+    "node-static": "^0.7.11"
+  }
+}
